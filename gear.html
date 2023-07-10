@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GEAR - hgomezdo</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/gear.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
     <nav class="navbar"> 
         <div class="navbar__container">
-            <a href="./index.html" id="navbar__logo">hgomezdo</a> <!-- basically a header with a link to the main page -->
+            <a href="./index.html" id="navbar__logo">hgomezdo</a>
 
             <ul class="navbar__menu">
                 <li class="navbar__item">
@@ -26,9 +27,9 @@
                 <li class="navbar__item">
                     <a href="./about.html" class="navbar__links">About</a>
                 </li>
-                <li class="navbar__item">
-                    <a href="./contact.html" class="navbar__links">Contact</a>
-                </li>
+                <button class="cont__button">
+                    <div class="contact__item">Contact</div>
+                </button>
             </ul>
         </div>
     </nav>
@@ -38,9 +39,52 @@
             <h1 class="gear__header">Gear: </h1>
             <h2 class="gear__heading">See my workspaces!</h2>
             <div class="gear__contain"> 
+
                 <div class="equip__contain"> 
                     <div class="images__contain">
-                        <img src="Images/demo.jpg" alt="Setup Image" class="equip__image">
+                        <img src="Images/home-pc1.jpg" alt="Setup Image" class="equip__image">
+                        <div class="small__images">
+                            <img src="Images/home-pc2.jpg" alt="Setup Image" class="equip__image__bott">
+                            <img src="Images/home-pc3.jpg" alt="Setup Image" class="equip__image__bott">
+                            <img src="Images/home-pc4.jpg" alt="Setup Image" class="equip__image__bott">
+                            <img src="Images/home-desk1.jpg" alt="Setup Image" class="equip__image__bott">
+                            <img src="Images/home-desk2.jpg" alt="Setup Image" class="equip__image__bott">
+                        </div>
+                    </div>
+                    <div class="desc__card">
+                        <div class="innerCard">
+                            <div class="equip__front">
+                                <p class="equip__title">Home workspace</p>
+                            </div>
+                            <div class="equip__back">
+                                <a href="#custom__pc" class="equip__desc">Custom PC Build</a>
+                                <a href="https://www.amazon.com/Sceptre-DisplayPort-Edge-Less-FreeSync-C275B-1858RN/dp/B089V2R9WW/ref=sr_1_3?crid=1BWVTN4FU9VUJ" target="_blank" rel="noopener noreferrer" class="equip__desc">Sceptre Monitor</a>
+                                <a href="https://www.amazon.com/Logitech-G613-Lightspeed-Mechanical-Multihost-Connectivity/dp/B07796MBJ7/ref=sr_1_3?crid=22K0GVQGZA1E8" target="_blank" rel="noopener noreferrer" class="equip__desc">Logitech Keyboard G613</a>
+                                <a href="https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.910-005469.html" target="_blank" rel="noopener noreferrer" class="equip__desc">Logitech G502 Hero</a>
+                                <a href="https://www.amazon.com/Professional-Condenser-Microphone-Streaming-Podcasting/dp/B07QKQJL17?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER" target="_blank" rel="noopener noreferrer" class="equip__desc">Blue Yeti X</a>
+                                <a href="https://www.amazon.com/Logitech-Z623-Watt-Speaker-System/dp/B003VAHYTG/ref=sr_1_6?crid=2AW7RVYBGZ2OV" target="_blank" rel="noopener noreferrer" class="equip__desc">Logitech Z623 Speakers</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="equip__contain"> 
+                    <div class="desc__card">
+                        <div class="innerCard">
+                            <div class="equip__front">
+                                <p class="equip__title">Purdue workspace</p>
+                            </div>
+                            <div class="equip__back">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="equip__desc">Parts</a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="equip__desc">Parts</a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="equip__desc">Parts</a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="equip__desc">Parts</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images__contain">
+                        <img src="Images/home-mouse.jpg" alt="Setup Image" class="equip__image">
                         <div class="small__images">
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
@@ -49,20 +93,12 @@
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
                         </div>
                     </div>
-                    <div class="equip__desc__cont">
-                        <p class="equip__title">Home workspace</p>
-                        <p>&#160;</p>
-                        <p class="equip__desc">Parts</p>
-                    </div>
                 </div>
-                <div class="equip__contain"> 
-                    <div class="equip__desc__cont">
-                        <p class="equip__title">Purdue workspace</p>
-                        <p>&#160;</p>
-                        <p class="equip__desc">Parts</p>
-                    </div>
+
+
+                <div class="equip__contain" id="custom__pc"> 
                     <div class="images__contain">
-                        <img src="Images/demo.jpg" alt="Setup Image" class="equip__image">
+                        <img src="Images/home-keyboard.jpg" alt="Setup Image" class="equip__image">
                         <div class="small__images">
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
@@ -71,32 +107,41 @@
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
                         </div>
                     </div>
-                </div>
-                <div class="equip__contain">
-                    <div class="images__contain">
-                        <img src="Images/demo.jpg" alt="Setup Image" class="equip__image">
-                        <div class="small__images">
-                            <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
-                            <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
-                            <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
-                            <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
-                            <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
+                    <div class="desc__card">
+                        <div class="innerCard">
+                            <div class="equip__front">
+                                <p class="equip__title">Custom  Home PC</p>
+                            </div>
+                            <div class="equip__back">
+                                <a href="https://www.amazon.com/gp/product/B07CL9TCLN/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&th=1" target="_blank" rel="noopener noreferrer" class="equip__desc">Corsair Case</a>
+                                <a href="https://www.amazon.com/ASUS-TUF-B560M-PLUS-Motherboard-Thunderbolt/dp/B08W6PSC52/ref=sr_1_1?crid=3PXGON5HYVP5" target="_blank" rel="noopener noreferrer" class="equip__desc">ASUS TUF Gaming B560M</a>
+                                <a href="https://www.amazon.com/Intel-i9-11900-Desktop-Processor-LGA1200/dp/B08X5XVLL9/ref=sr_1_3?crid=FPW72YTYP26L" target="_blank" rel="noopener noreferrer" class="equip__desc">i9-11900 CPU</a>
+                                <a href="https://www.amazon.com/MSI-GeForce-RTX-3060-LHR/dp/B0995TBTLS/ref=sr_1_2?crid=4LKLTIYX1JRW" target="_blank" rel="noopener noreferrer" class="equip__desc">MSI Nvidia 3060ti GPU</a>
+                                <a href="https://www.amazon.com/gp/product/B0829RTMKY/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&th=1" target="_blank" rel="noopener noreferrer" class="equip__desc">Corsair CPU Cooler</a>
+                                <a href="https://www.amazon.com/gp/product/B01MQU6CWU/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&th=1" target="_blank" rel="noopener noreferrer" class="equip__desc">Thermaltake PSU</a>
+                                <a href="https://www.amazon.com/Corsair-LL120-120mm-Light-Lighting/dp/B075VGN4M1/ref=sr_1_3?dchild=1" target="_blank" rel="noopener noreferrer" class="equip__desc">Corsair LED Fans</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="equip__desc__cont">
-                        <p class="equip__title">Custom  Home PC</p>
-                        <p>&#160;</p>
-                        <p class="equip__desc">Parts</p>
-                    </div>
                 </div>
+
+
                 <div class="equip__contain"> 
-                    <div class="equip__desc__cont">
-                        <p class="equip__title">Purdue workspace</p>
-                        <p>&#160;</p>
-                        <p class="equip__desc">Description</p>
+                    <div class="desc__card">
+                        <div class="innerCard">
+                            <div class="equip__front">
+                                <p class="equip__title">Workspace</p>
+                            </div>
+                            <div class="equip__back">
+                                <a href="#" class="equip__desc">Parts</a>
+                                <a href="#" class="equip__desc">Parts</a>
+                                <a href="#" class="equip__desc">Parts</a>
+                                <a href="#" class="equip__desc">Parts</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="images__contain">
-                        <img src="Images/demo.jpg" alt="Setup Image" class="equip__image">
+                        <img src="Images/home-mouse.jpg" alt="Setup Image" class="equip__image">
                         <div class="small__images">
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">
                             <img src="Images/demo.jpg" alt="Setup Image" class="equip__image__bott">

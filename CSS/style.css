@@ -1,0 +1,165 @@
+@font-face {
+    font-family: salma;
+    src: url(/Fonts/salmapromediumnarrow-vg5v6-webfont.woff);
+}
+@font-face {
+    font-family: time__burn;
+    src: url(/Fonts/timeburnerbold-pegr-webfont.woff);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: salma;
+    scroll-behavior: smooth;
+    }
+
+
+    /* navbar section */
+    .navbar {
+        background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%); 
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        top: 0;
+        z-index: 999;
+    }
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 0px;
+    }
+    #navbar__logo {
+        color: #fff;
+        text-transform: uppercase; /*
+        background-color: #0068df;
+        background-image: linear-gradient(to top, rgba(39, 39, 39, 0.663) 0%, #ffffff 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent; */
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2.5rem;
+        font-weight: bold;
+        white-space: nowrap;
+        font-family: time__burn;
+        transition: all 0.3s ease;
+    }
+    #navbar__logo:hover {
+        color: #a17724;
+        transition: all 0.3s ease;
+    }
+    .navbar__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    .navbar__item {
+        height: 80px;
+        text-transform: uppercase;
+    }
+    .navbar__links {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 125px;
+        text-decoration: none;
+        height: 100%;
+        transition: all 0.3s ease;
+        font-family: time__burn;
+    }
+    .navbar__links:hover {
+        color: #a17724;
+        transition: all 0.3s ease;
+    }
+    .contact__item {
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      justify-content: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-family: time__burn;
+    }
+
+
+    .cont__button {
+      display: flex;
+      padding: 5px 10px;
+      border: 2px solid transparent;
+      border-color: #a17724;
+      border-radius: 42px 84px;
+      color: white;
+      background-color: transparent;
+      transition: color 0.3s ease;
+    }
+    .cont__button:hover {
+      color: #a17724;
+      animation: clockWipe 0.3s linear forwards;
+      transition: color 0.3s ease;
+    }
+    @keyframes clockWipe {
+      0% {
+        border-color: #a17724;
+      }
+      50% {
+        border-color: #a17724;
+      }
+      100% {
+        border-color: white;
+      }
+    }
+    
+
+    /* footer section */
+    .footer {
+      background: radial-gradient(circle at 10% 20%, rgb(64, 64, 64) 0%, rgb(0, 0, 0) 90.2%); 
+        padding: 40px 0;
+    }
+    .footer__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    .footer__item {
+        height: 80px;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+    .footer__links {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 125px;
+        text-decoration: none;
+        height: 100%;
+        transition: all 0.3s ease;
+    }

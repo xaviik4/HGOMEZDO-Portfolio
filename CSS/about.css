@@ -1,0 +1,73 @@
+@font-face {
+    font-family: salma;
+    src: url(/Fonts/salmapromediumnarrow-vg5v6-webfont.woff);
+}
+@font-face {
+    font-family: time__burn;
+    src: url(/Fonts/timeburnerbold-pegr-webfont.woff);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: salma;
+    scroll-behavior: smooth;
+    }
+
+
+    /* about section */
+    .about {
+        background: #ffffff;
+        padding: 25px 0;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+    .about__image {
+        display: flex;
+        margin: 0 auto;
+        height: 480px;
+        width: 854px;
+        border-radius: 5px;
+    }
+    .about__header {
+        color: #000000;
+        font-size: 47px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .about__contain {
+        background: #a17724;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 600px;
+        max-width: 1160px;
+        width: 100%;
+        padding: 30px;
+    }
+    .about__heading {
+        color: #000000;
+        font-size: 35px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .about__desc {
+        color: #000000;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .about__email {
+        color: #000000;
+        font-size: 20px;
+    }

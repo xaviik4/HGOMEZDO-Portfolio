@@ -1,0 +1,42 @@
+@font-face {
+    font-family: salma;
+    src: url(/Fonts/salmapromediumnarrow-vg5v6-webfont.woff);
+}
+@font-face {
+    font-family: time__burn;
+    src: url(/Fonts/timeburnerbold-pegr-webfont.woff);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: salma;
+    scroll-behavior: smooth;
+    }
+
+
+    /* resume section */
+    .resume {
+        background: #ffffff;
+        padding: 25px 0;
+    }
+    .res__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+    .resume__header {
+        color: #000000;
+        font-size: 65px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: salma;
+    }

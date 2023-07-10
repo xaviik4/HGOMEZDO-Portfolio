@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CONTACT - hgomezdo</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>RESUME - hgomezdo</title>
+    <link rel="stylesheet" href="CSS/resume.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar"> 
         <div class="navbar__container">
             <a href="./index.html" id="navbar__logo">hgomezdo</a> <!-- basically a header with a link to the main page -->
             
@@ -26,25 +27,20 @@
                 <li class="navbar__item">
                     <a href="./about.html" class="navbar__links">About</a>
                 </li>
-                <li class="navbar__item">
-                    <a href="./contact.html" class="navbar__links">Contact</a>
-                </li> 
+                <button class="cont__button">
+                    <div class="contact__item">Contact</div>
+                </button>
             </ul>
         </div>
     </nav>
 
-    <div class="contact">
-        <h1>Contact.</h1>
-        <div>Get in touch! </div>
-    </div>
-
-
-    <div class="arrange-vertically"> <!-- make another container for this area as well-->
-        <h2>Contact me</h2>
-        <strong>My Email: gomezd.harry@gmail.com</strong><br>
-        <input class="text" type="text" placeholder="Name"><br> <!-- br is a break line and creates some empty space-->
-        <input class="text" type="email" placeholder="Email"><br>
-        <input class="text" type="text" placeholder="Message"><br>
+    <div class="resume">
+        <div class="res__container">
+            <h1 class="resume__header">Resume: </h1>
+            <object data="/Resources/Resume.pdf" type="application/pdf" width="100%" height="800px">
+                <p>Unable to display PDF file. <a href="/Resources/Resume.pdf">Download</a> instead.</p>
+            </object>
+        </div>
     </div>
 
     <div class="footer">
