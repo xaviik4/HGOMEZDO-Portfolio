@@ -18,7 +18,7 @@
 
     /* about section */
     .about {
-        background: #ffffff;
+        background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); 
         padding: 25px 0;
     }
     .about__container {
@@ -26,27 +26,42 @@
         flex-direction: column;
         justify-content: center;
         max-width: 1200px;
+        max-height: 1500px;
         margin: 0 auto;
-        height: 90%;
+        height: 100%;
         text-align: center;
-        padding: 20px;
+    }
+    .image__contain {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-height: 490px;
+        max-width: 864px;
+        border: 2px solid transparent;
+        border-color: #a17724;
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        padding: 5px;
     }
     .about__image {
         display: flex;
         margin: 0 auto;
-        height: 480px;
-        width: 854px;
+        max-height: 480px;
+        max-width: 854px;
+        height: 100%;
+        width: 100%;
         border-radius: 5px;
     }
     .about__header {
-        color: #000000;
+        color: #ffffff;
         font-size: 47px;
         font-weight: bold;
         margin-top: 25px;
         margin-bottom: 20px;
     }
     .about__contain {
-        background: #a17724;
+        background: linear-gradient(to right, #868f96 0%, #596164 100%); 
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -54,9 +69,10 @@
         max-width: 1160px;
         width: 100%;
         padding: 30px;
+        border-radius: 5px;
     }
     .about__heading {
-        color: #000000;
+        color: #ffffff;
         font-size: 35px;
         margin-bottom: 15px;
         text-align: left;

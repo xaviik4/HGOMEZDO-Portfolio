@@ -40,3 +40,8 @@
         text-transform: uppercase;
         font-family: salma;
     }
+    .pdf {
+        display: flex;
+        height: 850px;
+        width: 100%; 
+    }
