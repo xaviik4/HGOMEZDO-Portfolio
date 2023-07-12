@@ -18,7 +18,7 @@
 
     /* work section */
     .work {
-        background: #ffffff; /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);  */
+        background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); 
         padding: 25px;
     }
     .work__container {
@@ -26,14 +26,14 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        max-width: 1074px;
+        max-width: 1430px;
         margin: 0 auto;
         margin-top: 30px;
-        max-height: 1300px;
+        max-height: 2300px;
         height: 100%;
     }
     .work__header {
-        color: #000000;
+        color: #ffffff;
         font-size: 70px;
         font-weight: bold;
         margin-top: 25px;
@@ -41,100 +41,95 @@
         text-transform: uppercase;
     }
     .work__heading {
-        color: #000000;
+        color: #ffffff;
         font-size: 35px;
         margin-top: 10px;
         margin-bottom: 30px;
     }
     .work__contain {
-        background: #a17724;
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        max-height: 1066px;
-        max-width: 1074px;
+        max-height: 2176px;
+        max-width: 1430px;
         width: 100%;
         height: 100%;
-        padding: 25px;
-        border-radius: 10px;
     }
-    .work__demo {
-        background: #fffefe;
+    .project__contain {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        max-height: 508px;
+        max-height: 544px;
         height: 100%;
-        max-width: 1024px;
-        width: 100%;
-        border-radius: 8px;
+        max-width: 1430px;
+        padding: 15px;
     }
-    .demo__contain {
+    .image__contain {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        max-width: 512px;
+        max-height: 514px;
+        max-width: 906px;
+        border: 2px solid transparent;
+        border-color: #5f5f5f;
+        border-radius: 10px;
+        height: 100%;
         width: 100%;
-        margin: 0 auto;
-        text-align: center;
+        padding: 5px;
+        transition: 0.3s ease;
     }
-    .demo__image {
+    .proj__image {
         display: flex;
-        max-width: 288px;
-        max-width: 512px;
+        max-height: 504px;
+        max-width: 896px;
         height: 100%;
         width: 100%;
         border-radius: 5px;
-        transition: 0.4s ease;
     }
-    .demo__image:hover {
-        transform: scale(1.03);
+    .image__contain:hover {
+        border-color: #a17724;
         transition: 0.3s ease;
     }
-    .demo__desc {
+    .proj__desc {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        max-width: 450px;
+        justify-content: center;
+        max-width: 494px;
         width: 100%;
-        max-height: 220px;
-        height: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .demo__desc__cont {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        max-width: 420px;
-        width: 100%;
-        max-height: 160px;
+        max-height: 514px;
         height: 100%;
         margin: 0 auto;
         text-align: center;
         padding: 5px;
     }
+    .desc__contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 484px;
+        max-height: 400px;
+        height: 100%;
+        width: 100%;   
+        padding: 5px;
+    }
     .work__title {
-        color: #000000;
+        color: #ffffff;
         font-size: 30px;
         margin-top: 10px;
         font-weight: bold;
         text-transform: uppercase;
     }
     .work__desc {
-        color: #000000;
+        color: #ffffff;
         font-size: 21px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
-    .work__lcont {
+    .links__contain {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-top: 40px;
     }
     .work__link {
-        color: #000000;
+        color: #ffffff;
         font-size: 20px;
         text-decoration: none;
     }
