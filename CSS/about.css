@@ -17,7 +17,7 @@
 
 
     /* about section */
-    .about {
+    .about__contact {
         background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); 
         padding: 25px 0;
     }
@@ -26,7 +26,7 @@
         flex-direction: column;
         justify-content: center;
         max-width: 1200px;
-        max-height: 1500px;
+        max-height: 1800px;
         margin: 0 auto;
         height: 100%;
         text-align: center;
@@ -55,35 +55,114 @@
     }
     .about__header {
         color: #ffffff;
-        font-size: 47px;
+        font-size: 70px;
         font-weight: bold;
-        margin-top: 25px;
-        margin-bottom: 20px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+    }
+    .about__resume {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        max-height: 80px;
+        max-width: 100px;
+        margin-bottom: 40px;
+        height: 100%;
+        width: 100%;
+    }
+    .resume {
+        color: #ffffff;
+        font-size: 30px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    .resume:hover {
+        color: #a17724;
+        transition: 0.3s;
     }
     .about__contain {
-        background: linear-gradient(to right, #868f96 0%, #596164 100%); 
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        height: 600px;
-        max-width: 1160px;
+        margin: 0 auto;
+        flex-direction: row;
+        max-height: 500px;
+        max-width: 1200px;
+        margin-bottom: 50px;
+        height: 100%;
         width: 100%;
-        padding: 30px;
-        border-radius: 5px;
     }
-    .about__heading {
+    .know__contain {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-height: 500px;
+        max-width: 540px;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+    .know__title {
         color: #ffffff;
         font-size: 35px;
         margin-bottom: 15px;
         text-align: left;
     }
-    .about__desc {
-        color: #000000;
+    .know__desc {
+        color: #ffffff;
         font-size: 25px;
         margin-bottom: 20px;
         text-align: left;
     }
-    .about__email {
-        color: #000000;
-        font-size: 20px;
+    .job__contain {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-height: 500px;
+        max-width: 540px;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+    .skills__contain {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-height: 200px;
+        max-width: 500px;
+        margin-bottom: 35px;
+        height: 100%;
+        width: 100%;
+    }
+    .skills__title {
+        color: #ffffff;
+        font-size: 35px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .skills__desc {
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .work__contain {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-height: 250px;
+        max-width: 600px;
+        height: 100%;
+        width: 100%;
+    }
+    .work__title {
+        color: #ffffff;
+        font-size: 35px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .work__desc {
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: left;
     }
