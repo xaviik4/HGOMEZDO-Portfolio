@@ -55,7 +55,7 @@
     }
     .about__header {
         color: #ffffff;
-        font-size: 70px;
+        font-size: 50px;
         font-weight: bold;
         margin-top: 35px;
         margin-bottom: 35px;
@@ -87,7 +87,7 @@
         flex-direction: row;
         max-height: 500px;
         max-width: 1200px;
-        margin-bottom: 50px;
+        margin-bottom: 200px;
         height: 100%;
         width: 100%;
     }
@@ -103,13 +103,13 @@
     }
     .know__title {
         color: #ffffff;
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 15px;
         text-align: left;
     }
     .know__desc {
         color: #ffffff;
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 20px;
         text-align: left;
     }
@@ -135,13 +135,13 @@
     }
     .skills__title {
         color: #ffffff;
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 15px;
         text-align: left;
     }
     .skills__desc {
         color: #ffffff;
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 20px;
         text-align: left;
     }
@@ -156,13 +156,83 @@
     }
     .work__title {
         color: #ffffff;
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 15px;
         text-align: left;
     }
     .work__desc {
         color: #ffffff;
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 20px;
         text-align: left;
+    }
+
+
+    /* Contact Section*/
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1200px;
+        max-height: 600px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        height: 100%;
+        text-align: center;
+    }
+    .contact__header {
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+    }
+    .contact__desc {
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .contact__box {
+        display: flex;
+        margin: 0 auto;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 600px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    .contact__input {
+        outline: 0;
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 100%;
+        height: 50px;
+    }
+    .contact__box textarea {
+        border-radius: 8px;
+        height: 100px;
+        width: 100%;
+        resize: none;
+        outline: 0;
+        padding: 8px 14px;
+        font-size: 16px;
+        border: 1px solid rgb(219, 213, 213);
+    }
+    .contact__box button {
+        align-self: center;
+        padding: 8px;
+        outline: 0;
+        border: 0;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        cursor: pointer;
     }

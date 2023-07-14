@@ -92,6 +92,7 @@
       font-size: 1.5rem;
       justify-content: center;
       text-decoration: none;
+      color: white;
       transition: all 0.3s ease;
       font-family: time__burn;
     }
@@ -105,8 +106,12 @@
       background-color: transparent;
       transition: color 0.3s ease;
     }
-    .cont__button:hover {
+    .contact__item:hover {
       color: #a17724;
+      animation: clockWipe 0.3s linear forwards;
+      transition: color 0.3s ease;
+    }
+    .cont__button:hover {
       animation: clockWipe 0.3s linear forwards;
       transition: color 0.3s ease;
     }
