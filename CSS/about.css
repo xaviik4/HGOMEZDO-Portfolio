@@ -103,13 +103,13 @@
     }
     .know__title {
         color: #ffffff;
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 15px;
         text-align: left;
     }
     .know__desc {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 20px;
         text-align: left;
     }
@@ -135,13 +135,13 @@
     }
     .skills__title {
         color: #ffffff;
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 15px;
         text-align: left;
     }
     .skills__desc {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 20px;
         text-align: left;
     }
@@ -156,13 +156,13 @@
     }
     .work__title {
         color: #ffffff;
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 15px;
         text-align: left;
     }
     .work__desc {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 20px;
         text-align: left;
     }
@@ -190,7 +190,7 @@
     }
     .contact__desc {
         color: #ffffff;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 25px;
     }
 
@@ -204,7 +204,6 @@
         width: 100%;
         padding: 20px;
         border-radius: 10px;
-        
     }
     .contact__input {
         outline: 0;
